@@ -32,6 +32,9 @@ nav.navbar .nav-link {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+#about p:first-child {
+	margin-top: 8px;
+}
 ul.conditions {
 	font-size: 14px;
 }
