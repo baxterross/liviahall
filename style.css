@@ -4,16 +4,21 @@ body {
 	overflow-x: hidden;
 }
 #background-container {
-	background-image: url('background.jpg');
-	background-position: center 0;
-	background-attachment: fixed;
-	background-size: 100% auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: 35vh;
-	max-height: 600px;
+	background-image: url('background.jpg');
+	background-position: center center;
+	background-size: 100% auto;
+	z-index: -1;
 }
 #container {
 	background: #fff;
 	min-height: 600px;
+	margin-top: 35vh;
+	background: #fff;
 }
 .container {
 	max-width: 1000px;
@@ -62,6 +67,9 @@ ul.conditions {
 @media (min-width: 768px) {
 	#background-container {
 		height: 60vh;
+	}
+	#container {
+		margin-top: 60vh;
 	}
 	#title {
 		margin-top: -82px;
