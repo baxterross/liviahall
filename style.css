@@ -58,7 +58,7 @@ ul.conditions {
 }
 #testimonials .testimonial:before {
 	display: inline;
-	content: '“';
+	content: "“";
 	font-size: 40px;
 	vertical-align: top;
 	line-height: 22px;
