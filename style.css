@@ -48,6 +48,22 @@ nav.navbar .nav-link {
 ul.conditions {
 	font-size: 14px;
 }
+#testimonials .testimonial {
+	margin-top: 32px;
+	font-style: italic;
+}
+#testimonials .testimonial .attribution {
+	display: block;
+	font-style: normal;
+}
+#testimonials .testimonial:before {
+	display: inline;
+	content: '“';
+	font-size: 40px;
+	vertical-align: top;
+	line-height: 22px;
+	letter-spacing: 10px;
+}
 #location {
 	font-size: 14px;
 }
@@ -77,5 +93,14 @@ ul.conditions {
 	}
 	#map {
 		max-height: 85vh;
+	}
+	#testimonials .testimonial {
+		margin-left: 40px;
+		margin-right: 40px;
+		font-style: italic;
+		display: none;
+	}
+	#testimonials .testimonial.visible {
+		display: block;	
 	}
 }
